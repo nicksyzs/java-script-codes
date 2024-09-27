@@ -43,3 +43,8 @@ alert(carros.join(' - ')) //Muda a exibição
 
 const listCarros = carros.concat(carrosEsportivos); //Exibe a lista somando os outros carros
 alert(listCarros);
+
+const carros = ['Renegade', 'Toro', 'Tracker'];
+
+alert(carros.sort());
+alert(carros.reverse()); //reverter a ordem exibida
